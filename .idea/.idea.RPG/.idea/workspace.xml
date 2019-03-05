@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c0cf44-e480-486f-b330-d650e13e194e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/58/583f661f462704df1a43c56651536e64" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/58/583f661f462704df1a43c56651536e64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +32,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="285">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
               <folding>
-                <marker date="1551804527900" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551804527900" expanded="true" signature="114:403" ph="{...}" />
-                <marker date="1551804527900" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
+                <marker date="1551805429576" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551805429576" expanded="true" signature="114:410" ph="{...}" />
+                <marker date="1551805429576" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
               </folding>
             </state>
           </provider>
@@ -154,12 +149,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551803913557</updated>
-      <workItem from="1551803923817" duration="560000" />
+      <workItem from="1551803923817" duration="1320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="560000" />
+    <option name="totallyTimeSpent" value="1320000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -237,12 +232,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="285">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
           <folding>
-            <marker date="1551804527900" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551804527900" expanded="true" signature="114:403" ph="{...}" />
-            <marker date="1551804527900" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
+            <marker date="1551805429576" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551805429576" expanded="true" signature="114:410" ph="{...}" />
+            <marker date="1551805429576" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
           </folding>
         </state>
       </provider>

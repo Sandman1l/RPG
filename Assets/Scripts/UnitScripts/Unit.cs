@@ -19,4 +19,5 @@ public class Unit : MonoBehaviour {
       // Luck
       public float luck;
       
+      
 }
