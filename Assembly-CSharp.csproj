@@ -13,7 +13,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\TurnSystem.cs" />
+     <Compile Include="Assets\Scripts\UnitScripts\Unit.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/LuisSFU/Desktop/RPG/RPG/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
