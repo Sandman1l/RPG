@@ -18,6 +18,10 @@ public class Unit : MonoBehaviour {
       public float ag;
       // Luck
       public float luck;
-      
-      
+
+
+      public void Turn(int i)
+      {
+            throw new System.NotImplementedException();
+      }
 }
