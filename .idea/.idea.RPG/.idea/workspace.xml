@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c0cf44-e480-486f-b330-d650e13e194e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/58/583f661f462704df1a43c56651536e64" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/58/583f661f462704df1a43c56651536e64" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/metadata/70/7041991e332e441f4a61bc2e3557ea19" beforeDir="false" afterPath="$PROJECT_DIR$/Library/metadata/70/7041991e332e441f4a61bc2e3557ea19" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +26,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="64">
+              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
               <folding>
-                <marker date="1551806247682" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551806247682" expanded="true" signature="119:753" ph="{...}" />
-                <marker date="1551806247682" expanded="true" signature="199:689" ph="{...}" />
-                <marker date="1551806247682" expanded="true" signature="425:534" ph="{...}" />
-                <marker date="1551806247682" expanded="true" signature="578:686" ph="{...}" />
-                <marker date="1551806247682" expanded="true" signature="744:751" ph="{...}" />
+                <marker date="1551807757083" expanded="true" signature="6:78" ph="..." />
+                <marker date="1551807757083" expanded="true" signature="164:802" ph="{...}" />
+                <marker date="1551807757083" expanded="true" signature="215:738" ph="{...}" />
+                <marker date="1551807757083" expanded="true" signature="459:568" ph="{...}" />
+                <marker date="1551807757083" expanded="true" signature="612:720" ph="{...}" />
+                <marker date="1551807757083" expanded="true" signature="793:800" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+              <folding>
+                <marker date="1551807716043" expanded="true" signature="6:78" ph="..." />
+                <marker date="1551807716043" expanded="true" signature="119:206" ph="{...}" />
+                <marker date="1551807716043" expanded="true" signature="183:204" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -62,11 +77,13 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" />
       </list>
     </option>
@@ -161,12 +178,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551803913557</updated>
-      <workItem from="1551803923817" duration="2098000" />
+      <workItem from="1551803923817" duration="2810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2098000" />
+    <option name="totallyTimeSpent" value="2810000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -242,17 +259,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <marker date="1551807716043" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551807716043" expanded="true" signature="119:206" ph="{...}" />
+            <marker date="1551807716043" expanded="true" signature="183:204" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="64">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
           <folding>
-            <marker date="1551806247682" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551806247682" expanded="true" signature="119:753" ph="{...}" />
-            <marker date="1551806247682" expanded="true" signature="199:689" ph="{...}" />
-            <marker date="1551806247682" expanded="true" signature="425:534" ph="{...}" />
-            <marker date="1551806247682" expanded="true" signature="578:686" ph="{...}" />
-            <marker date="1551806247682" expanded="true" signature="744:751" ph="{...}" />
+            <marker date="1551807757083" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551807757083" expanded="true" signature="164:802" ph="{...}" />
+            <marker date="1551807757083" expanded="true" signature="215:738" ph="{...}" />
+            <marker date="1551807757083" expanded="true" signature="459:568" ph="{...}" />
+            <marker date="1551807757083" expanded="true" signature="612:720" ph="{...}" />
+            <marker date="1551807757083" expanded="true" signature="793:800" ph="{...}" />
           </folding>
         </state>
       </provider>

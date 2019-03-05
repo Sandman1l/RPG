@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TurnSystem : MonoBehaviour
-{
-
-	private List<Unit> units;
-	
+// Turn Helper inherits the MonoBehaviour class
+public class TurnSystem : TurnHelper
+{	
 	// Use this for initialization
 	void Start () {
 		units = new List<Unit>();
-		GameObject [] playerUnits = GameObject.FindGameObjectsWithTag("Player");
-		GameObject [] enemyUnits = GameObject.FindGameObjectsWithTag("Enemy");
+		//Arrays for player and enemy units
+		var playerUnits = GameObject.FindGameObjectsWithTag("Player");
+		var enemyUnits = GameObject.FindGameObjectsWithTag("Enemy");
 		
 		foreach (GameObject player in playerUnits) {
 			var currentUnit = player.GetComponent<Unit> ();
@@ -23,6 +22,8 @@ public class TurnSystem : MonoBehaviour
 			currentUnit.Turn (0);
 			units.Add (currentUnit);
 		}
+
+		TurnSort();
 	}
 	
 	// Update is called once per frame
