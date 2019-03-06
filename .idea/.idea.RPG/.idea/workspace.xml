@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5c0cf44-e480-486f-b330-d650e13e194e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPG/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,15 +17,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="191">
+              <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
               <folding>
-                <marker date="1551807757083" expanded="true" signature="6:78" ph="..." />
-                <marker date="1551807757083" expanded="true" signature="164:802" ph="{...}" />
-                <marker date="1551807757083" expanded="true" signature="215:738" ph="{...}" />
-                <marker date="1551807757083" expanded="true" signature="459:568" ph="{...}" />
-                <marker date="1551807757083" expanded="true" signature="612:720" ph="{...}" />
-                <marker date="1551807757083" expanded="true" signature="793:800" ph="{...}" />
+                <marker date="1551888973092" expanded="true" signature="6:78" ph="..." />
+                <marker date="1551888973092" expanded="true" signature="164:1145" ph="{...}" />
+                <marker date="1551888973092" expanded="true" signature="215:741" ph="{...}" />
+                <marker date="1551888973092" expanded="true" signature="459:568" ph="{...}" />
+                <marker date="1551888973092" expanded="true" signature="612:720" ph="{...}" />
+                <marker date="1551888973092" expanded="true" signature="768:1143" ph="{...}" />
+                <marker date="1551888973092" expanded="true" signature="857:1108" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -43,12 +35,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="75">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding>
-                <marker date="1551807716043" expanded="true" signature="6:78" ph="..." />
-                <marker date="1551807716043" expanded="true" signature="119:206" ph="{...}" />
-                <marker date="1551807716043" expanded="true" signature="183:204" ph="{...}" />
+                <marker date="1551888843464" expanded="true" signature="6:78" ph="..." />
+                <marker date="1551888843464" expanded="true" signature="119:209" ph="{...}" />
+                <marker date="1551888843464" expanded="true" signature="186:207" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,13 +49,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="17" />
+            <state relative-caret-position="162">
+              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
-                <marker date="1551806163593" expanded="false" signature="6:78" ph="..." />
-                <marker date="1551806163593" expanded="true" signature="114:500" ph="{...}" />
-                <marker date="1551806163593" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
-                <marker date="1551806163593" expanded="true" signature="426:498" ph="{...}" />
+                <marker date="1551888651953" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551888651953" expanded="true" signature="114:705" ph="{...}" />
+                <marker date="1551888651953" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
+                <marker date="1551888651953" expanded="true" signature="426:498" ph="{...}" />
+                <marker date="1551888651953" expanded="true" signature="526:598" ph="{...}" />
+                <marker date="1551888651953" expanded="true" signature="631:703" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -178,12 +172,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1551803913557</updated>
-      <workItem from="1551803923817" duration="2810000" />
+      <workItem from="1551803923817" duration="3808000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2810000" />
+    <option name="totallyTimeSpent" value="3808000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,40 +242,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/UnitScripts/Unit.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="162">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
-            <marker date="1551806163593" expanded="false" signature="6:78" ph="..." />
-            <marker date="1551806163593" expanded="true" signature="114:500" ph="{...}" />
-            <marker date="1551806163593" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
-            <marker date="1551806163593" expanded="true" signature="426:498" ph="{...}" />
+            <marker date="1551888651953" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551888651953" expanded="true" signature="114:705" ph="{...}" />
+            <marker date="1551888651953" expanded="true" signature="123:169" ph="/* Unit Class for stats ... */" />
+            <marker date="1551888651953" expanded="true" signature="426:498" ph="{...}" />
+            <marker date="1551888651953" expanded="true" signature="526:598" ph="{...}" />
+            <marker date="1551888651953" expanded="true" signature="631:703" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnHelper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="75">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
-            <marker date="1551807716043" expanded="true" signature="6:78" ph="..." />
-            <marker date="1551807716043" expanded="true" signature="119:206" ph="{...}" />
-            <marker date="1551807716043" expanded="true" signature="183:204" ph="{...}" />
+            <marker date="1551888843464" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551888843464" expanded="true" signature="119:209" ph="{...}" />
+            <marker date="1551888843464" expanded="true" signature="186:207" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TurnSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="191">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
           <folding>
-            <marker date="1551807757083" expanded="true" signature="6:78" ph="..." />
-            <marker date="1551807757083" expanded="true" signature="164:802" ph="{...}" />
-            <marker date="1551807757083" expanded="true" signature="215:738" ph="{...}" />
-            <marker date="1551807757083" expanded="true" signature="459:568" ph="{...}" />
-            <marker date="1551807757083" expanded="true" signature="612:720" ph="{...}" />
-            <marker date="1551807757083" expanded="true" signature="793:800" ph="{...}" />
+            <marker date="1551888973092" expanded="true" signature="6:78" ph="..." />
+            <marker date="1551888973092" expanded="true" signature="164:1145" ph="{...}" />
+            <marker date="1551888973092" expanded="true" signature="215:741" ph="{...}" />
+            <marker date="1551888973092" expanded="true" signature="459:568" ph="{...}" />
+            <marker date="1551888973092" expanded="true" signature="612:720" ph="{...}" />
+            <marker date="1551888973092" expanded="true" signature="768:1143" ph="{...}" />
+            <marker date="1551888973092" expanded="true" signature="857:1108" ph="{...}" />
           </folding>
         </state>
       </provider>

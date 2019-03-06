@@ -7,7 +7,7 @@ public class TurnSystem : TurnHelper
 {	
 	// Use this for initialization
 	void Start () {
-		units = new List<Unit>();
+		Units = new List<Unit>();
 		//Arrays for player and enemy units
 		var playerUnits = GameObject.FindGameObjectsWithTag("Player");
 		var enemyUnits = GameObject.FindGameObjectsWithTag("Enemy");
@@ -15,19 +15,31 @@ public class TurnSystem : TurnHelper
 		foreach (GameObject player in playerUnits) {
 			var currentUnit = player.GetComponent<Unit> ();
 			currentUnit.Turn (0);
-			units.Add (currentUnit);
+			Units.Add (currentUnit);
 		}
 		foreach (GameObject enemy in enemyUnits) {
 			var currentUnit = enemy.GetComponent<Unit> ();
 			currentUnit.Turn (0);
-			units.Add (currentUnit);
+			Units.Add (currentUnit);
 		}
 
-		TurnSort();
+		AgilitySort();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public void nextTurn() {
+		var nextToAct = Units [0];
+		Units.Remove (nextToAct);
+ 
+		if (!nextToAct.isDead ()) {
+			var currentUnit = nextToAct.gameObject;
+ 
+			nextToAct.calculateNextActTurn (nextToAct.nextActTurn);
+			Units.Add (nextToAct);
+			AgilitySort();
+
+			Debug.Log(currentUnit.CompareTag("PlayerUnit") ? "Player unit acting" : "Enemy unit acting");
+		} else {
+			this.nextTurn ();
+		}
 	}
 }

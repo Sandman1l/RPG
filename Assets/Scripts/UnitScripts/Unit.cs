@@ -24,4 +24,14 @@ public class Unit : MonoBehaviour {
       {
             throw new System.NotImplementedException();
       }
+
+      public bool isDead()
+      {
+            throw new System.NotImplementedException();
+      }
+
+      public void AgilitySort()
+      {
+            throw new System.NotImplementedException();
+      }
 }
