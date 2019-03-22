@@ -7,6 +7,7 @@
 
 Temp/UnityTempFile*
 Library/metadata/*
+obj/*
 # Never ignore Asset meta data
 ![Aa]ssets/**/*.meta
 
